@@ -11,10 +11,18 @@
 
  // Defining simple HTTP server
  const httpServer = http.createServer(function(req, res){
+
+    //Get the URL object
     let parsedUrl = url.parse(req.url, true);
+
+    //Get the path
     let path = parsedUrl.pathname;
+
+    //Send the respond
     res.end('Yaay it\'s working\n');
-    console.log('Request recieved on path: ' + path);
+
+    //Log the recieved path
+    console.log('Request recieved on path: ' + parsedUrl);
  });
 
  // Start the server and listen port 3000
