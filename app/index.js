@@ -22,7 +22,7 @@
     res.end('Yaay it\'s working\n');
 
     //Log the recieved path
-    console.log('Request recieved on path: ' + parsedUrl);
+    console.log('Request recieved on path: ' + path);
  });
 
  // Start the server and listen port 3000
