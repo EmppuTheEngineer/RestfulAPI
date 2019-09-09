@@ -1,5 +1,5 @@
 # RestfulAPI Homework01
-RESTful API-section's homework assignment #01 for Pirple's Node Masterclass course
+RESTful API-section's homework assignment #01
 
 **Description**
 
